@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwordinator</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Passwordinator</h1>
+        <p>Generate and display random passwords of varying complexities.</p>
+    </header>
+    <main>
+        <section id="passwordSection">
+            <h2>Generated Password</h2>
+            <div id="passwordDisplay">Click the button to generate a password!</div>
+            <button id="generateBtn">Generate Password</button>
+            <div class="settings">
+                <div class="setting-row">
+                    <label for="autoGenerateInput">Set Interval (Seconds): </label>
+                    <input type="number" id="autoGenerateInput" min="1" />
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="fontToggle" />
+                    <label for="fontToggle">Enable Font Style Change</label>
+                </div>
+                <div class="button-row">
+                    <button id="autoGenerateBtn">Automatic Generate</button>
+                    <button id="stopBtn">Stop</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Passwordinator</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
